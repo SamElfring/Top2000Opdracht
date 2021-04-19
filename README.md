@@ -7,7 +7,7 @@
   <h3 align="center">Scrum Groep 13</h3>
 
   <p align="center">
-    <strong>Menu</strong>
+    <strong>Menu -></strong>
 	<br />
     <a href="https://dev.azure.com/scrumgroep13"><strong>Scrum-Bord »</strong></a>
 	<br />
@@ -19,7 +19,7 @@
 
 TODO
 
-## Yahtzee
+## Top2000
 
 Jullie scrumteam is werkzaam voor het bedrijf HQS (High Quality Software). Het bedrijf Soundsharp is een goede klant van HQS en heeft een nieuwe opdracht aangebracht. HQS heeft jullie scrumteam geselecteerd om deze opdracht binnen 3 sprints te volbrengen.  
 
