@@ -33,6 +33,7 @@ git clone https://github.com/SamElfring/Top2000Opdracht
 ## Team
 | Sam Elfring 							| Lucas Huls    						  | Bram van Nek 						   | Guus Hinrichs		   					 |
 | -------------  						| ------------- 						  | ------------- 						   | ------------- 		   					 |
+|<img width="150px" src="ReadMeBestanden/Sam.png">		|<img width="150px" src="ReadMeBestanden/Lucas.png">		  |<img width="150px" src="ReadMeBestanden/Bram.png">	|<img width="150px" src="ReadMeBestanden/Guus.png">
 | Scrummaster   				   		| Notulist      						  | Deelnemer  							   | Deelnemer 								 |
 
 ## Info
