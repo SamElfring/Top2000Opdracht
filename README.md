@@ -31,9 +31,9 @@ git clone https://github.com/SamElfring/Top2000Opdracht
 ```
 
 ## Team
-| Lucas Huls    						  | Bram van Nek 						   | Guus Hinrichs		   					 | Sam Elfring 							|
-| ------------- 						  | ------------- 						   | ------------- 		   					 | -------------  						|
-| Notulist      						  | Deelnemer  							   | Deelnemer 								 | Scrumleader  						|
+| Sam Elfring 							| Lucas Huls    						  | Bram van Nek 						   | Guus Hinrichs		   					 |
+| -------------  						| ------------- 						  | ------------- 						   | ------------- 		   					 |
+| Scrummaster   				   		| Notulist      						  | Deelnemer  							   | Deelnemer 								 |
 
 ## Info
 Project Link: https://github.com/SamElfring/Top2000Opdracht
