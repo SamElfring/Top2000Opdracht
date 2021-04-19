@@ -35,5 +35,5 @@ git clone https://github.com/SamElfring/Top2000Opdracht
 | ------------- 						  | ------------- 						   | ------------- 		   					 | -------------  						|
 | Notulist      						  | Deelnemer  							   | Deelnemer 								 | Scrumleader  						|
 
-## Handige Info
+## Info
 Project Link: https://github.com/SamElfring/Top2000Opdracht
