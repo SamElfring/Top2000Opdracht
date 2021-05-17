@@ -1,0 +1,44 @@
+﻿@model Top2000Project.Models.Songs
+
+@{
+    ViewData["Title"] = "Edit";
+}
+
+<h1>Edit</h1>
+
+<h4>Songs</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Edit">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <input type="hidden" asp-for="songid" />
+            <div class="form-group">
+                <label asp-for="artiestid" class="control-label"></label>
+                <input asp-for="artiestid" class="form-control" />
+                <span asp-validation-for="artiestid" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="titel" class="control-label"></label>
+                <input asp-for="titel" class="form-control" />
+                <span asp-validation-for="titel" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="jaar" class="control-label"></label>
+                <input asp-for="jaar" class="form-control" />
+                <span asp-validation-for="jaar" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Save" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}
