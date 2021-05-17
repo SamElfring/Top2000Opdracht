@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="903A6577-EC01-9447-BCE6-328700FD4BBB" containerWithKeyObject="02AFBCAA-A4BC-9165-8512-69921F3B425F" localFKIndex="986216CA-5FA4-4889-0440-CBF7EF26B5F9" name="Top2000Lijst_Jaren_FK">
+<createdBy>elfri</createdBy>
+<createdTime>2021-05-17 08:26:29 UTC</createdTime>
+<generatorID>328D0F97-1D77-02C5-5563-E085D5D47775</generatorID>
+<ownerDesignName>ERD</ownerDesignName>
+<referredTableLongName>Jaren</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>2FFE588C-444B-6521-69C7-B520900F7386</referredTableID>
+<keyObject>D2060E22-D9CA-2DCC-61EF-C7E09E9A87EE</keyObject>
+<referredKeyID>D2060E22-D9CA-2DCC-61EF-C7E09E9A87EE</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>Top2000Jaar</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

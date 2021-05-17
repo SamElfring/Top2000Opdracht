@@ -1,0 +1,87 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="3D0F2EFE-7F89-52B3-28BE-36FB4631FF7D" name="Nummer">
+<createdBy>elfri</createdBy>
+<createdTime>2021-05-17 08:26:29 UTC</createdTime>
+<generatorID>29AD357E-DB1E-87A9-2EE9-8CD1227561DA</generatorID>
+<ownerDesignName>ERD</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="NummerID" id="C9438D99-1516-9738-3072-F4C9F6B1748B">
+<createdBy>elfri</createdBy>
+<createdTime>2021-05-17 08:26:29 UTC</createdTime>
+<generatorID>AC5F5363-53FC-CEAC-3046-E1B7339E00B4</generatorID>
+<ownerDesignName>ERD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Jaar" id="962F927F-3162-82E1-EC49-FB08544EB408">
+<createdBy>elfri</createdBy>
+<createdTime>2021-05-17 08:26:29 UTC</createdTime>
+<generatorID>A3B5F1C2-8A80-A446-D722-0DBEE17B613F</generatorID>
+<ownerDesignName>ERD</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Titel" id="A7E9DD9B-6632-79AB-5453-A28DEAD07E92">
+<createdBy>elfri</createdBy>
+<createdTime>2021-05-17 08:26:29 UTC</createdTime>
+<generatorID>E29E271C-937C-F751-5A19-D552BBF914D1</generatorID>
+<ownerDesignName>ERD</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Artiest_ArtiestID" id="DFA0D658-05BA-02DE-9F25-FF7899F5A5BC">
+<createdBy>elfri</createdBy>
+<createdTime>2021-05-17 08:26:29 UTC</createdTime>
+<generatorID>037CFFB1-AA2E-1057-5355-B9C568DFEBB8</generatorID>
+<ownerDesignName>ERD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="9F6324FB-4516-CD08-2051-EFDF9AEE335D" referredColumn="34F51821-F759-0F73-A087-18143994DB16"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="B30FC66D-5DE5-62BC-2D90-9A454DB3C8F3" name="Nummer_PK">
+<createdBy>elfri</createdBy>
+<createdTime>2021-05-17 08:26:29 UTC</createdTime>
+<generatorID>402810B5-0A2C-39E2-A812-E34DFEDA6999</generatorID>
+<ownerDesignName>ERD</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C9438D99-1516-9738-3072-F4C9F6B1748B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E82AE592-744E-BA8A-ED6D-59FEF5C57DF6" name="Nummer_Artiest_FK">
+<createdBy>elfri</createdBy>
+<createdTime>2021-05-17 08:26:29 UTC</createdTime>
+<generatorID>FFBCF0FF-B1D4-7A96-AA3C-216F6E0C5E9A</generatorID>
+<ownerDesignName>ERD</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DFA0D658-05BA-02DE-9F25-FF7899F5A5BC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

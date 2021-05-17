@@ -1,0 +1,37 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="2FFE588C-444B-6521-69C7-B520900F7386" name="Jaren">
+<createdBy>elfri</createdBy>
+<createdTime>2021-05-17 08:26:29 UTC</createdTime>
+<generatorID>BF877D9D-31B3-A38A-561C-D4302039E18C</generatorID>
+<ownerDesignName>ERD</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Top2000Jaar" id="AE3D8E9C-7F02-ABAA-B4A2-DDB2BF9B86AF">
+<createdBy>elfri</createdBy>
+<createdTime>2021-05-17 08:26:29 UTC</createdTime>
+<generatorID>116EF50F-3814-8031-3A70-40271A6EA4E5</generatorID>
+<ownerDesignName>ERD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="D2060E22-D9CA-2DCC-61EF-C7E09E9A87EE" name="Jaren_PK">
+<createdBy>elfri</createdBy>
+<createdTime>2021-05-17 08:26:29 UTC</createdTime>
+<generatorID>16B6BB02-0F17-53C9-8A4C-7CC14A02B944</generatorID>
+<ownerDesignName>ERD</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="AE3D8E9C-7F02-ABAA-B4A2-DDB2BF9B86AF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

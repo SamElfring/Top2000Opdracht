@@ -1,0 +1,58 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="28137981-05DC-92FB-0A25-C35A003DDCE9" name="Artiest">
+<createdBy>elfri</createdBy>
+<createdTime>2021-05-17 07:44:49 UTC</createdTime>
+<ownerDesignName>ERD</ownerDesignName>
+<engineerTo>
+<item key="1645A84D-0103-88E1-C037-4CAF43E2F55D" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ArtiestID" id="541A89BD-7054-BB51-126C-F8AA1C07DB10">
+<createdBy>elfri</createdBy>
+<createdTime>2021-05-17 07:44:56 UTC</createdTime>
+<ownerDesignName>ERD</ownerDesignName>
+<engineerTo>
+<item key="1645A84D-0103-88E1-C037-4CAF43E2F55D" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ArtiestNaam" id="D70A3276-F234-D535-721B-67EBA3F5DF38">
+<createdBy>elfri</createdBy>
+<createdTime>2021-05-17 07:45:04 UTC</createdTime>
+<ownerDesignName>ERD</ownerDesignName>
+<engineerTo>
+<item key="1645A84D-0103-88E1-C037-4CAF43E2F55D" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="8247B2E4-4750-D9B0-2E8E-8AE6AE2FC8A3" name="Artiest PK">
+<createdBy>elfri</createdBy>
+<createdTime>2021-05-17 07:45:02 UTC</createdTime>
+<ownerDesignName>ERD</ownerDesignName>
+<engineerTo>
+<item key="1645A84D-0103-88E1-C037-4CAF43E2F55D" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>541A89BD-7054-BB51-126C-F8AA1C07DB10</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
