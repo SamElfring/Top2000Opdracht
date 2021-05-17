@@ -50,7 +50,7 @@
 <point x="285" y="328"/>
 </points>
 </Connector>
-<Connector class="oracle.dbtools.crest.swingui.logical.TVRelation" oid="FFBCF0FF-B1D4-7A96-AA3C-216F6E0C5E9A" otype="Relation" vid_source="2A8BD4DE-CD2E-F302-100A-9FCAE805DC97" vid_target="6E612A35-DD64-0BE5-96AF-350DE0356E5C">
+<Connector class="oracle.dbtools.crest.swingui.logical.TVRelation" oid="E75A0D7F-D110-AC3D-4570-0BB05A618DB9" otype="Relation" vid_source="2A8BD4DE-CD2E-F302-100A-9FCAE805DC97" vid_target="6E612A35-DD64-0BE5-96AF-350DE0356E5C">
 <hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
 <backgroundColor>-16777216</backgroundColor>
 <lineWidth>1</lineWidth>

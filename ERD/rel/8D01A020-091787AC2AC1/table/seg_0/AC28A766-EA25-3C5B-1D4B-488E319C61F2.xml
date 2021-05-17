@@ -1,16 +1,16 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="BB44A221-9343-7C29-08D4-A128706DAB2F" name="Artiest">
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="AC28A766-EA25-3C5B-1D4B-488E319C61F2" name="Artiest">
 <createdBy>elfri</createdBy>
-<createdTime>2021-05-17 08:26:29 UTC</createdTime>
+<createdTime>2021-05-17 09:01:21 UTC</createdTime>
 <generatorID>28137981-05DC-92FB-0A25-C35A003DDCE9</generatorID>
 <ownerDesignName>ERD</ownerDesignName>
 <allowColumnReorder>false</allowColumnReorder>
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
-<Column name="ArtiestID" id="34F51821-F759-0F73-A087-18143994DB16">
+<Column name="ArtiestID" id="DDD65756-FB0A-6080-5600-51F030B1C11F">
 <createdBy>elfri</createdBy>
-<createdTime>2021-05-17 08:26:29 UTC</createdTime>
+<createdTime>2021-05-17 09:01:21 UTC</createdTime>
 <generatorID>541A89BD-7054-BB51-126C-F8AA1C07DB10</generatorID>
 <ownerDesignName>ERD</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
@@ -19,9 +19,9 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="ArtiestNaam" id="74E30642-D311-8145-9945-D67474B9663E">
+<Column name="ArtiestNaam" id="02745F00-2D29-A3BE-8801-A2E33CB3E33A">
 <createdBy>elfri</createdBy>
-<createdTime>2021-05-17 08:26:29 UTC</createdTime>
+<createdTime>2021-05-17 09:01:21 UTC</createdTime>
 <generatorID>D70A3276-F234-D535-721B-67EBA3F5DF38</generatorID>
 <ownerDesignName>ERD</ownerDesignName>
 <nullsAllowed>true</nullsAllowed>
@@ -33,16 +33,16 @@
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
-<ind_PK_UK id="32F21400-35D2-D48C-52A3-D675BC9035FB" name="Artiest_PK">
+<ind_PK_UK id="FCA701E5-97A3-2BB0-E062-A58A916C3AA4" name="Artiest_PK">
 <createdBy>elfri</createdBy>
-<createdTime>2021-05-17 08:26:29 UTC</createdTime>
+<createdTime>2021-05-17 09:01:21 UTC</createdTime>
 <generatorID>8247B2E4-4750-D9B0-2E8E-8AE6AE2FC8A3</generatorID>
 <ownerDesignName>ERD</ownerDesignName>
 <pk>true</pk>
 <indexState>Primary Constraint</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="34F51821-F759-0F73-A087-18143994DB16"/>
+<colUsage columnID="DDD65756-FB0A-6080-5600-51F030B1C11F"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

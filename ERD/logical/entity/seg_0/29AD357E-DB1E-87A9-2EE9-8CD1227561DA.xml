@@ -4,7 +4,7 @@
 <createdTime>2021-05-17 07:42:59 UTC</createdTime>
 <ownerDesignName>ERD</ownerDesignName>
 <engineerTo>
-<item key="0698E81F-1880-21F2-6401-0F2885C9207B" value="true"/>
+<item key="8D01A020-0BEC-E71E-F7AF-091787AC2AC1" value="true"/>
 </engineerTo>
 <adequatelyNormalized>NO</adequatelyNormalized>
 <expectedVolumes>0</expectedVolumes>
@@ -20,7 +20,7 @@
 <createdTime>2021-05-17 07:43:11 UTC</createdTime>
 <ownerDesignName>ERD</ownerDesignName>
 <engineerTo>
-<item key="0698E81F-1880-21F2-6401-0F2885C9207B" value="true"/>
+<item key="8D01A020-0BEC-E71E-F7AF-091787AC2AC1" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -32,7 +32,7 @@
 <createdTime>2021-05-17 07:43:23 UTC</createdTime>
 <ownerDesignName>ERD</ownerDesignName>
 <engineerTo>
-<item key="0698E81F-1880-21F2-6401-0F2885C9207B" value="true"/>
+<item key="8D01A020-0BEC-E71E-F7AF-091787AC2AC1" value="true"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
@@ -45,7 +45,7 @@
 <createdTime>2021-05-17 07:43:30 UTC</createdTime>
 <ownerDesignName>ERD</ownerDesignName>
 <engineerTo>
-<item key="0698E81F-1880-21F2-6401-0F2885C9207B" value="true"/>
+<item key="8D01A020-0BEC-E71E-F7AF-091787AC2AC1" value="true"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
@@ -53,13 +53,13 @@
 <logicalDatatype>LOGDT024</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="ArtiestID" id="037CFFB1-AA2E-1057-5355-B9C568DFEBB8">
+<Attribute name="ArtiestID" id="8B8AF528-0A57-6547-9653-AD08410A38A3">
 <createdBy>elfri</createdBy>
-<createdTime>2021-05-17 08:17:46 UTC</createdTime>
-<generatorID>FFBCF0FF-B1D4-7A96-AA3C-216F6E0C5E9A</generatorID>
+<createdTime>2021-05-17 09:00:49 UTC</createdTime>
+<generatorID>E75A0D7F-D110-AC3D-4570-0BB05A618DB9</generatorID>
 <ownerDesignName>ERD</ownerDesignName>
 <engineerTo>
-<item key="0698E81F-1880-21F2-6401-0F2885C9207B" value="true"/>
+<item key="8D01A020-0BEC-E71E-F7AF-091787AC2AC1" value="true"/>
 </engineerTo>
 <referedAttribute>541A89BD-7054-BB51-126C-F8AA1C07DB10</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
@@ -74,7 +74,7 @@
 <createdTime>2021-05-17 07:43:17 UTC</createdTime>
 <ownerDesignName>ERD</ownerDesignName>
 <engineerTo>
-<item key="0698E81F-1880-21F2-6401-0F2885C9207B" value="true"/>
+<item key="8D01A020-0BEC-E71E-F7AF-091787AC2AC1" value="true"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>
