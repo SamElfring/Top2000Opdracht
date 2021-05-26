@@ -12,7 +12,5 @@ namespace Top2000Project.Data
             : base(options)
         {
         }
-
-        public DbSet<Models.Songs> Songs { get; set; }
     }
 }
