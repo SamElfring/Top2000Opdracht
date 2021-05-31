@@ -1,27 +1,25 @@
 {
   "format": 1,
   "restore": {
-    "C:\\repos\\Top2000Opdracht\\Top2000Project\\Top2000Project\\Top2000Project.csproj": {}
+    "C:\\Users\\ljhul\\Dropbox\\School\\Semester 4\\semester-4-LucasHuls\\Sprint 15\\Project Top2000\\Top2000Opdracht\\Top2000Project\\Top2000Project\\Top2000Project.csproj": {}
   },
   "projects": {
-    "C:\\repos\\Top2000Opdracht\\Top2000Project\\Top2000Project\\Top2000Project.csproj": {
+    "C:\\Users\\ljhul\\Dropbox\\School\\Semester 4\\semester-4-LucasHuls\\Sprint 15\\Project Top2000\\Top2000Opdracht\\Top2000Project\\Top2000Project\\Top2000Project.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\repos\\Top2000Opdracht\\Top2000Project\\Top2000Project\\Top2000Project.csproj",
+        "projectUniqueName": "C:\\Users\\ljhul\\Dropbox\\School\\Semester 4\\semester-4-LucasHuls\\Sprint 15\\Project Top2000\\Top2000Opdracht\\Top2000Project\\Top2000Project\\Top2000Project.csproj",
         "projectName": "Top2000Project",
-        "projectPath": "C:\\repos\\Top2000Opdracht\\Top2000Project\\Top2000Project\\Top2000Project.csproj",
-        "packagesPath": "C:\\Users\\elfri\\.nuget\\packages\\",
-        "outputPath": "C:\\repos\\Top2000Opdracht\\Top2000Project\\Top2000Project\\obj\\",
+        "projectPath": "C:\\Users\\ljhul\\Dropbox\\School\\Semester 4\\semester-4-LucasHuls\\Sprint 15\\Project Top2000\\Top2000Opdracht\\Top2000Project\\Top2000Project\\Top2000Project.csproj",
+        "packagesPath": "C:\\Users\\ljhul\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\ljhul\\Dropbox\\School\\Semester 4\\semester-4-LucasHuls\\Sprint 15\\Project Top2000\\Top2000Opdracht\\Top2000Project\\Top2000Project\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
-          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\elfri\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\ljhul\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net5.0"
@@ -87,7 +85,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.203\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.201\\RuntimeIdentifierGraph.json"
         }
       }
     }

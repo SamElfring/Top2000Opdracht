@@ -1,3 +1,7 @@
 ﻿<StaticWebAssets Version="1.0">
+<<<<<<< HEAD:Top2000Project/Top2000Project/bin/Debug/netcoreapp3.1/Top2000Project.StaticWebAssets.xml
+  <ContentRoot BasePath="/Identity" Path="C:\Users\ljhul\.nuget\packages\microsoft.aspnetcore.identity.ui\3.1.15\staticwebassets\V4\" />
+=======
   <ContentRoot BasePath="/Identity" Path="C:\Users\elfri\.nuget\packages\microsoft.aspnetcore.identity.ui\5.0.6\staticwebassets\V4\" />
+>>>>>>> ee665e6a9849e4329906ea9d02ea491cc698da2b:Top2000Project/Top2000Project/bin/Debug/net5.0/Top2000Project.StaticWebAssets.xml
 </StaticWebAssets>
