@@ -1,4 +1,5 @@
-**/*.localz
-**/*.local
-**/*.git
-**/*.DS_Store
+/.vs
+Top2000/.vs
+Top2000\Top2000\obj
+Top2000\Top2000\bin
+*.exe
