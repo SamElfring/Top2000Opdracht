@@ -346,3 +346,13 @@ C:\Users\ljhul\Dropbox\School\Semester 4\semester-4-LucasHuls\Sprint 16\Top2000\
 C:\Users\ljhul\Dropbox\School\Semester 4\semester-4-LucasHuls\Sprint 16\Top2000\Top2000\obj\Debug\net5.0\ref\Top2000.dll
 C:\Users\ljhul\Dropbox\School\Semester 4\semester-4-LucasHuls\Sprint 16\Top2000\Top2000\obj\Debug\net5.0\Top2000.pdb
 C:\Users\ljhul\Dropbox\School\Semester 4\semester-4-LucasHuls\Sprint 16\Top2000\Top2000\obj\Debug\net5.0\Top2000.genruntimeconfig.cache
+C:\repos\Top2000Opdracht\Top2000\Top2000\obj\Debug\net5.0\Razor\Views\User\Create.cshtml.g.cs
+C:\repos\Top2000Opdracht\Top2000\Top2000\obj\Debug\net5.0\Razor\Views\User\Delete.cshtml.g.cs
+C:\repos\Top2000Opdracht\Top2000\Top2000\obj\Debug\net5.0\Razor\Views\User\Details.cshtml.g.cs
+C:\repos\Top2000Opdracht\Top2000\Top2000\obj\Debug\net5.0\Razor\Views\User\Edit.cshtml.g.cs
+C:\repos\Top2000Opdracht\Top2000\Top2000\obj\Debug\net5.0\Razor\Views\User\Index.cshtml.g.cs
+C:\repos\Top2000Opdracht\Top2000\Top2000\obj\Debug\net5.0\Razor\Views\Role\Create.cshtml.g.cs
+C:\repos\Top2000Opdracht\Top2000\Top2000\obj\Debug\net5.0\Razor\Views\Role\Delete.cshtml.g.cs
+C:\repos\Top2000Opdracht\Top2000\Top2000\obj\Debug\net5.0\Razor\Views\Role\Details.cshtml.g.cs
+C:\repos\Top2000Opdracht\Top2000\Top2000\obj\Debug\net5.0\Razor\Views\Role\Edit.cshtml.g.cs
+C:\repos\Top2000Opdracht\Top2000\Top2000\obj\Debug\net5.0\Razor\Views\Role\Index.cshtml.g.cs
