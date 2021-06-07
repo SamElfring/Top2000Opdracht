@@ -34,7 +34,7 @@ namespace Top2000.Models
             if (!optionsBuilder.IsConfigured)
             {
 #warning To protect potentially sensitive information in your connection string, you should move it out of source code. You can avoid scaffolding the connection string by using the Name= syntax to read it from configuration - see https://go.microsoft.com/fwlink/?linkid=2131148. For more guidance on storing connection strings, see http://go.microsoft.com/fwlink/?LinkId=723263.
-                optionsBuilder.UseSqlServer("Server=SQL5104.site4now.net;Database=db_a74225_top2000;User Id=db_a74225_top2000_admin;Password=Password#12345;Trusted_Connection=False;");
+                optionsBuilder.UseSqlServer("name=DefaultConnection");
             }
         }
 

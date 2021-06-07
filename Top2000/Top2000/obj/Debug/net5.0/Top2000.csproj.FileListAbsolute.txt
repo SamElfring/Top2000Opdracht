@@ -162,3 +162,13 @@ C:\repos\Top2000Opdracht\Top2000\Top2000\obj\Debug\net5.0\Razor\Views\Song\Delet
 C:\repos\Top2000Opdracht\Top2000\Top2000\obj\Debug\net5.0\Razor\Views\Song\Details.cshtml.g.cs
 C:\repos\Top2000Opdracht\Top2000\Top2000\obj\Debug\net5.0\Razor\Views\Song\Edit.cshtml.g.cs
 C:\repos\Top2000Opdracht\Top2000\Top2000\obj\Debug\net5.0\Razor\Views\Song\Index.cshtml.g.cs
+C:\repos\Top2000Opdracht\Top2000\Top2000\obj\Debug\net5.0\Razor\Views\Artiest\Create.cshtml.g.cs
+C:\repos\Top2000Opdracht\Top2000\Top2000\obj\Debug\net5.0\Razor\Views\Artiest\Delete.cshtml.g.cs
+C:\repos\Top2000Opdracht\Top2000\Top2000\obj\Debug\net5.0\Razor\Views\Artiest\Details.cshtml.g.cs
+C:\repos\Top2000Opdracht\Top2000\Top2000\obj\Debug\net5.0\Razor\Views\Artiest\Edit.cshtml.g.cs
+C:\repos\Top2000Opdracht\Top2000\Top2000\obj\Debug\net5.0\Razor\Views\Artiest\Index.cshtml.g.cs
+C:\repos\Top2000Opdracht\Top2000\Top2000\obj\Debug\net5.0\Razor\Views\Top2000Jaar\Create.cshtml.g.cs
+C:\repos\Top2000Opdracht\Top2000\Top2000\obj\Debug\net5.0\Razor\Views\Top2000Jaar\Delete.cshtml.g.cs
+C:\repos\Top2000Opdracht\Top2000\Top2000\obj\Debug\net5.0\Razor\Views\Top2000Jaar\Details.cshtml.g.cs
+C:\repos\Top2000Opdracht\Top2000\Top2000\obj\Debug\net5.0\Razor\Views\Top2000Jaar\Edit.cshtml.g.cs
+C:\repos\Top2000Opdracht\Top2000\Top2000\obj\Debug\net5.0\Razor\Views\Top2000Jaar\Index.cshtml.g.cs
