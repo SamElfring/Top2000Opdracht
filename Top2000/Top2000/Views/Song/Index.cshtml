@@ -1,0 +1,23 @@
+﻿@model Top2000.Models.Song
+@{ 
+    Layout = "_Layout";
+}
+
+<div class="container">
+    <table class="table table-bordered">
+        <thead>
+            <tr>
+                <th>Titel</th>
+                <th>Artiest</th>
+                <th>Uitgebracht</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>@Model.Titel</td>
+                <td>@Model.Artiestid</td>
+                <td>@Model.Jaar</td>
+            </tr>
+        </tbody>
+    </table>
+</div>
