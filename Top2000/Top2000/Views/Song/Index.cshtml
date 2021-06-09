@@ -13,6 +13,9 @@
     <thead>
         <tr>
             <th>
+                Cover
+            </th>
+            <th>
                 @Html.DisplayNameFor(model => model.Titel)
             </th>
             <th>
@@ -27,22 +30,25 @@
     <tbody>
         @foreach (var item in Model)
         {
-            <tr>
-                <td>
-                    @Html.DisplayFor(modelItem => item.Titel)
-                </td>
-                <td>
-                    @Html.DisplayFor(modelItem => item.Jaar)
-                </td>
-                <td>
-                    @Html.DisplayFor(modelItem => item.Artiest.Naam)
-                </td>
-                <td>
-                    <a asp-action="Edit" asp-route-id="@item.Songid">Bewerken</a> |
-                    <a asp-action="Details" asp-route-id="@item.Songid">Details</a> |
-                    <a asp-action="Delete" asp-route-id="@item.Songid">Verwijder</a>
-                </td>
-            </tr>
+        <tr>
+            <td>
+                <img src="~/images/music-album.png" width="50" height="50" alt="Album Cover"/>
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Titel)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Jaar)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Artiest.Naam)
+            </td>
+            <td>
+                <a asp-action="Edit" asp-route-id="@item.Songid">Bewerken</a> |
+                <a asp-action="Details" asp-route-id="@item.Songid">Details</a> |
+                <a asp-action="Delete" asp-route-id="@item.Songid">Verwijder</a>
+            </td>
+        </tr>
         }
     </tbody>
 </table>
