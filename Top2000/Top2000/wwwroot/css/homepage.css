@@ -1,0 +1,16 @@
+﻿.container {
+    max-width: 100%;
+}
+.masthead {
+    height: 100vh;
+    min-height: 500px;
+    background-image: url('/images/cover.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    text-decoration: double;
+
+    background: linear-gradient(to right,#3204fdba, #9907facc), no-repeat top center;
+    color: #fff;
+}
+
