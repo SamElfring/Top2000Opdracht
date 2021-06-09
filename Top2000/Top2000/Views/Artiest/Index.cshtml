@@ -1,17 +1,20 @@
 ﻿@model IEnumerable<Top2000.Models.Artiest>
 
 @{
-    ViewData["Title"] = "Index";
+    ViewData["Title"] = "Top2000";
 }
 
-<h1>Index</h1>
+<h1>Top 2000 - Artiesten</h1>
 
 <p>
-    <a asp-action="Create">Create New</a>
+    <a asp-action="Create">Voeg toe</a>
 </p>
 <table class="table">
     <thead>
         <tr>
+            <th>
+                Cover
+            </th>
             <th>
                 @Html.DisplayNameFor(model => model.Naam)
             </th>
@@ -19,17 +22,21 @@
         </tr>
     </thead>
     <tbody>
-@foreach (var item in Model) {
+        @foreach (var item in Model)
+        {
         <tr>
+            <td>
+                <img src="~/images/artist-icon.png" width="50" height="50" alt="Artist Cover"/>
+            </td>
             <td>
                 @Html.DisplayFor(modelItem => item.Naam)
             </td>
             <td>
-                <a asp-action="Edit" asp-route-id="@item.Artiestid">Edit</a> |
+                <a asp-action="Edit" asp-route-id="@item.Artiestid">Bewerken</a> |
                 <a asp-action="Details" asp-route-id="@item.Artiestid">Details</a> |
-                <a asp-action="Delete" asp-route-id="@item.Artiestid">Delete</a>
+                <a asp-action="Delete" asp-route-id="@item.Artiestid">Verwijder</a>
             </td>
         </tr>
-}
+        }
     </tbody>
 </table>
