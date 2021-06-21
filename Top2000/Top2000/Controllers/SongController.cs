@@ -19,9 +19,15 @@ namespace Top2000.Controllers
         }
 
         // GET: Song
-        public async Task<IActionResult> Index()
+        public async Task<IActionResult> Index(string searchString)
         {
             var db_a74225_top2000Context = _context.Songs.Include(s => s.Artiest);
+
+            if (!String.IsNullOrEmpty(searchString))
+            {
+                return View(_context.Songs.Where(x => x.Titel.StartsWith(searchString) || searchString == null).ToList());
+            }
+
             return View(await db_a74225_top2000Context.ToListAsync());
         }
 
