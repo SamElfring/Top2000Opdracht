@@ -12,16 +12,30 @@
     <link rel="stylesheet" href="~/css/homepage.css" />
 </head>
 <body>
-    <header class="masthead">
-        <div class="h-100">
-            <div class="row h-100 align-items-center">
-                <div class="col-12 text-center">
-                    <h1 class="font-weight-light">Welkom!</h1>
-                    <p class="lead">Tekst komt hier</p>
+    <header>
+        <div class="video-background-holder">
+            <div class="video-background-overlay"></div>
+            <video playsinline="playsinline" autoplay="autoplay" muted="muted" loop="loop">
+                <source src="https://www.dropbox.com/s/xekacihbvc980rj/Top2000%20Intro.mp4?dl=1" type="video/mp4">
+            </video>
+            <div class="video-background-content container h-100">
+                <div class="d-flex h-100 text-center align-items-center">
+                    <div class="w-100 text-white">
+                        <h1 class="display-4">Top2000 - ScrumGroep13&copy;</h1>
+                        <p class="lead mb-0">ASP.NET MVC</p>
+                    </div>
                 </div>
             </div>
         </div>
     </header>
-
+    <section class="py-5">
+        <div class="container py-5">
+            <div class="row">
+                <div class="col-lg-8 mx-auto">
+                    <p class="lead">De Top 2000 is een jaarlijks radioprogramma van het Nederlandse radiostation NPO Radio 2. Hierin worden de bij stemming 2000 populairst bevonden muzieknummers achter elkaar gedraaid. Jaarlijks kan in de eerste week van december, de Top 2000 Stemweek dus vanaf 1 december, op deze lijst worden gestemd. </p>
+                </div>
+            </div>
+        </div>
+    </section>
 </body>
 </html>
