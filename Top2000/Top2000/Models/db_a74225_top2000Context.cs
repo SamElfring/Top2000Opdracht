@@ -1,6 +1,7 @@
 ﻿using System;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Top2000.Models;
 
 #nullable disable
 
@@ -208,5 +209,9 @@ namespace Top2000.Models
         }
 
         partial void OnModelCreatingPartial(ModelBuilder modelBuilder);
+
+        public DbSet<Top2000.Models.spSelectTop10ListingOnYear> spSelectTop10ListingOnYear { get; set; }
+
+        public DbSet<Top2000.Models.spSelectAllArtist> spSelectAllArtist { get; set; }
     }
 }

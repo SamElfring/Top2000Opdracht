@@ -25,7 +25,7 @@ namespace Top2000.Controllers
 
             if (!String.IsNullOrEmpty(searchString))
             {
-                return View(_context.Songs.Where(x => x.Titel.StartsWith(searchString) || searchString == null).ToList());
+                return View(await db_a74225_top2000Context.Where(x => x.Titel.StartsWith(searchString) || searchString == null).ToListAsync());
             }
 
             return View(await db_a74225_top2000Context.ToListAsync());

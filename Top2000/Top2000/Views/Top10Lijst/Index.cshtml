@@ -1,0 +1,54 @@
+﻿@model IEnumerable<Top2000.Models.spSelectTop10ListingOnYear>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Index</h1>
+
+@using (Html.BeginForm())
+{
+    <p>
+        Zoeken: @Html.TextBox("searchYear")
+        <input class="btn btn-primary" type="submit" value="Zoek" />
+    </p>
+}
+
+<h2>@ViewBag.year</h2>
+@if (ViewBag.isData)
+{
+    <table class="table">
+        <thead>
+            <tr>
+                <th>
+                    @Html.DisplayNameFor(model => model.Positie)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Titel)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Uitgebracht)
+                </th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Positie)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Titel)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Uitgebracht)
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+} else
+{
+    <h1>Geen data van dit jaar</h1>
+}
