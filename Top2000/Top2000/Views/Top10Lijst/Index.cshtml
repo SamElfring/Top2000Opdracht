@@ -6,15 +6,34 @@
 
 <h1>Index</h1>
 
-@using (Html.BeginForm())
-{
+<form asp-controller="Top10Lijst" asp-action="Index" method="get">
     <p>
         Zoeken: @Html.TextBox("searchYear")
         <input class="btn btn-primary" type="submit" value="Zoek" />
     </p>
-}
+</form>
 
 <h2>@ViewBag.year</h2>
+
+<style>
+    table thead {
+        background-color: #DA161C;
+        color: #fff;
+        font-weight: bolder;
+    }
+
+    #position {
+        background-color: #171F26;
+        color: white;
+        width: 5%;
+        text-align: center;
+    }
+
+    #title {
+        font-weight: bolder;
+    }
+</style>
+
 @if (ViewBag.isData)
 {
     <table class="table">
@@ -35,10 +54,10 @@
             @foreach (var item in Model)
             {
                 <tr>
-                    <td>
+                    <td id="position">
                         @Html.DisplayFor(modelItem => item.Positie)
                     </td>
-                    <td>
+                    <td id="title">
                         @Html.DisplayFor(modelItem => item.Titel)
                     </td>
                     <td>
@@ -52,3 +71,7 @@
 {
     <h1>Geen data van dit jaar</h1>
 }
+
+<div class="container-fluid">
+    <a class="btn btn-primary" asp-controller="Song">Bekijk alle liedjes!</a>
+</div>

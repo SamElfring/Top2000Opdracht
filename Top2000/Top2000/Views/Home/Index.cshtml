@@ -23,6 +23,7 @@
                     <div class="w-100 text-white">
                         <h1 class="display-4">Top2000 - ScrumGroep13&copy;</h1>
                         <p class="lead mb-0">ASP.NET MVC</p>
+                        <p>Bekijk hier de <a asp-controller="Top10Lijst">lijst</a>!</p>
                     </div>
                 </div>
             </div>
@@ -39,7 +40,7 @@
             </div>
             <div class="row align-items-center">
                 <div class="col">
-                    <a href="@Url.Action("","song")" class="btn btn-primary btn-lg btn-block">Bekijk de laatste Top2000 &raquo;</a>
+                    <a asp-controller="Top10Lijst" class="btn btn-primary btn-lg btn-block">Bekijk de laatste Top2000 &raquo;</a>
                 </div>
             </div>
         </div>

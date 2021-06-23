@@ -20,6 +20,7 @@ namespace Top2000.Controllers
         }
 
         // GET: Top10Lijst
+        [Route("top10lijst/{searchYear?}")]
         public async Task<IActionResult> Index(string searchYear)
         {
             string year = searchYear;
