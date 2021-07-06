@@ -1,8 +1,4 @@
-﻿using Microsoft.EntityFrameworkCore.Metadata;
-using Microsoft.EntityFrameworkCore.Migrations;
-using System;
-
-namespace Top2000.Data.Migrations
+﻿namespace Top2000.Data.Migrations
 {
     public partial class CreateIdentitySchema : Migration
     {

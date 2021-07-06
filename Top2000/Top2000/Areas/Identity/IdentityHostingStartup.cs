@@ -1,13 +1,4 @@
-﻿using System;
-using Microsoft.AspNetCore.Hosting;
-using Microsoft.AspNetCore.Identity;
-using Microsoft.AspNetCore.Identity.UI;
-using Microsoft.EntityFrameworkCore;
-using Microsoft.Extensions.Configuration;
-using Microsoft.Extensions.DependencyInjection;
-using Top2000.Data;
-
-[assembly: HostingStartup(typeof(Top2000.Areas.Identity.IdentityHostingStartup))]
+﻿[assembly: HostingStartup(typeof(Top2000.Areas.Identity.IdentityHostingStartup))]
 namespace Top2000.Areas.Identity
 {
     public class IdentityHostingStartup : IHostingStartup

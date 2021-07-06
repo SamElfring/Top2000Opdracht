@@ -1,10 +1,4 @@
-﻿using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
-using Microsoft.EntityFrameworkCore;
-using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace Top2000.Data
+﻿namespace Top2000.Data
 {
     public class ApplicationDbContext : IdentityDbContext
     {
