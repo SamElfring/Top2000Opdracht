@@ -1,5 +1,3 @@
-using System;
-
 namespace Top2000.Models
 {
     public class ErrorViewModel

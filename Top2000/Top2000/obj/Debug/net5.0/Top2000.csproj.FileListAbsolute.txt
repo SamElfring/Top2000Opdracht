@@ -450,3 +450,9 @@ C:\repos\Top2000Opdracht\Top2000\Top2000\obj\Debug\net5.0\Razor\Views\AllArtist\
 C:\repos\Top2000Opdracht\Top2000\Top2000\obj\Debug\net5.0\Razor\Views\AllArtist\Details.cshtml.g.cs
 C:\repos\Top2000Opdracht\Top2000\Top2000\obj\Debug\net5.0\Razor\Views\AllArtist\Edit.cshtml.g.cs
 C:\repos\Top2000Opdracht\Top2000\Top2000\obj\Debug\net5.0\Razor\Views\AllArtist\Index.cshtml.g.cs
+C:\Users\ljhul\Dropbox\School\Semester 4\semester-4-LucasHuls\Sprint 16\Top2000\Top2000\obj\Debug\net5.0\Razor\Views\AllArtist\Create.cshtml.g.cs
+C:\Users\ljhul\Dropbox\School\Semester 4\semester-4-LucasHuls\Sprint 16\Top2000\Top2000\obj\Debug\net5.0\Razor\Views\AllArtist\Delete.cshtml.g.cs
+C:\Users\ljhul\Dropbox\School\Semester 4\semester-4-LucasHuls\Sprint 16\Top2000\Top2000\obj\Debug\net5.0\Razor\Views\AllArtist\Details.cshtml.g.cs
+C:\Users\ljhul\Dropbox\School\Semester 4\semester-4-LucasHuls\Sprint 16\Top2000\Top2000\obj\Debug\net5.0\Razor\Views\AllArtist\Edit.cshtml.g.cs
+C:\Users\ljhul\Dropbox\School\Semester 4\semester-4-LucasHuls\Sprint 16\Top2000\Top2000\obj\Debug\net5.0\Razor\Views\AllArtist\Index.cshtml.g.cs
+C:\Users\ljhul\Dropbox\School\Semester 4\semester-4-LucasHuls\Sprint 16\Top2000\Top2000\obj\Debug\net5.0\Razor\Views\Top10Lijst\Index.cshtml.g.cs

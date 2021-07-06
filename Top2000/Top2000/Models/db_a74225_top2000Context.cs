@@ -1,9 +1,4 @@
-﻿using System;
-using Microsoft.EntityFrameworkCore;
-using Microsoft.EntityFrameworkCore.Metadata;
-using Top2000.Models;
-
-#nullable disable
+﻿#nullable disable
 
 namespace Top2000.Models
 {
